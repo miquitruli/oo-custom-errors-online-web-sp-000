@@ -1,6 +1,6 @@
 class Person
   class PartnerError<StandardError
-    
+
     attr_accessor :partner, :name
 
     def initialize(name)
@@ -18,7 +18,3 @@ end
 beyonce = Person.new("Beyonce")
 beyonce.get_married("Jay-Z")
 puts beyonce.name
-
-
-
-
